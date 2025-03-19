@@ -1,0 +1,5 @@
+Vanya Paulina Chavez Vazquez
+Capstone Project Ideas
+
+Food - Create an app that will give you the option to pick any recipe from any ethnicity that will include calorie intake. 
+Nutrition- Create a meal plan depending on your BMI, weight, and height. 
