@@ -2,4 +2,4 @@ Vanya Paulina Chavez Vazquez
 Capstone Project Ideas
 
 Food - Create an app that will give you the option to pick any recipe from any ethnicity that will include calorie intake. 
-Nutrition- Create a meal plan depending on your BMI, weight, and height. 
+Nutrition- Create a meal plan depending on your BMI, weight, and height. The API used in this app would be from https://apilist.fun/category/nutrition which allows me to obtain a free API and get the information needed for this project. The name of this project is Nutrete which means eat well in Spanish. During the making of this application it would include mostly React and javascript with some CSS. The purpose of this project is to help people to eat healthy and have a better lifestyle by changing how and what they are eating. Which means, that anyone can join this app men or women, young or old. Anyone is invited to join my app, it is never too late to have a healthy lifestyle.
