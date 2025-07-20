@@ -1,5 +1,5 @@
-Stack Focus- I would like to make it an evenly focused full-stack application. 
-Type- This would be a mobile app
+Stack Focus- I would like to make it an evenly focused full-stack application. Also, I created my own API for this project.
+Type- This would be a mobile app and website. It would have a login and register, also people would be able to track their meals, including the calories and food recipes.
 Goal - The goal is to implement good nutrition to people along with different diets and recipes that will contain the calories and the nutrients. 
 Data - Collect the people’s weight and height in order to obtain a meal plan for their goals. 
 Description: My project would be a full stack app that will enable people to get their body goals by obtaining a meal plan. According to, the given data which will include height, weight, BMI,
