@@ -1,6 +1,148 @@
-Stack Focus- I would like to make it an evenly focused full-stack application. Also, I created my own API for this project.
-Type- This would be a mobile app and website. It would have a login and register, also people would be able to track their meals, including the calories and food recipes.
-Goal - The goal is to implement good nutrition to people along with different diets and recipes that will contain the calories and the nutrients. 
-Data - Collect the people’s weight and height in order to obtain a meal plan for their goals. 
-Description: My project would be a full stack app that will enable people to get their body goals by obtaining a meal plan. According to, the given data which will include height, weight, BMI,
-and gender it will return the correct meal plan that best fits their needs.
+Project Proposal for Nutrify App
+
+1. What tech stack will you use for your final project?
+- My app would be a full stack application, including building my own API.
+
+2. Is the front-end UI or the back-end going to be the focus of your project? Or are
+you going to make an evenly focused full-stack application?
+- My app is a full stack application, it includes front-end and back-end. I would be using mongoDB for my API 
+and React for this project. It is mostly react and javascript with some CSS.
+The images in my project are in the back-end with the routers.
+
+3. Will this be a website? A mobile app? Something else?
+- This is a website and a mobile app, which would allow users to manage their diet wherever they go.
+
+4. What goal will your project be designed to achieve?
+- To help people stay healthy and track what they eat throughout their day. 
+The focus is to help people lose weight or gain weight, depending on their goals.
+
+5. What kind of users will visit your app? In other words, what is the demographic of
+your users?
+- My users need to be at least 12 years old to use this app. I believe anyone can be 
+healthy as soon as they start to have their own body goal.
+
+6. What data do you plan on using? How are you planning on collecting your data?
+You may have not picked your actual API yet, which is fine, just outline what kind
+of data you would like it to contain. You are welcome to create your own API and
+populate it with data.
+- I used my own data for meal plans, including images, tracking calories, tracking age,
+tracking fats, tracking protein, and weight.
+
+● What does your database schema look like?
+ {
+      "name": "Apple",
+      "calories": 52,
+      "protein": 0.3,
+      "fat": 0.2,
+      "fiber": 2.4,
+      "carbohydrates": 14,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pink_lady_and_cross_section.jpg"
+    },
+    {
+      "name": "Banana",
+      "calories": 89,
+      "protein": 1.1,
+      "fat": 0.3,
+      "fiber": 2.6,
+      "carbohydrates": 23,
+      "imageUrl": "https://www.lovefoodhatewaste.com/sites/default/files/styles/16_9_two_column/public/2022-07/Bananas.jpg.webp?itok=bqo03oZ1"
+    },
+    {
+      "name": "Chicken Breast",
+      "calories": 165,
+      "protein": 31,
+      "fat": 3.6,
+      "fiber": 0,
+      "carbohydrates": 0,
+      "imageUrl":"https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2023/01/Air-Fryer-Chicken-Breast-main.jpg"
+    },
+    {
+      "name": "Broccoli",
+      "calories": 55,
+      "protein": 3.7,
+      "fat": 0.6,
+      "fiber": 2.4,
+      "carbohydrates": 11,
+      "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/0/03/Broccoli_and_cross_section_edit.jpg"
+    },
+    {
+      "name": "Almonds",
+      "calories": 579,
+      "protein": 21,
+      "fat": 49,
+      "fiber": 12.5,
+      "carbohydrates": 22,
+      "imageUrl":"https://nuts.com/images/ct/images.cdn.us-central1.gcp.commercetools.com/fe6ef66f-361c-4adb-b11f-d4aa8f13c79c/3004_RawAlmondsNoShe-Ke41eZKN-large.jpg"
+    },
+    {
+      "name": "Salmon",
+      "calories": 208,
+      "protein": 20,
+      "fat": 13,
+      "fiber": 0,
+      "carbohydrates": 0,
+      "imageUrl":"https://static01.nyt.com/images/2024/08/01/multimedia/as-grilled-salmon-bvfk/as-grilled-salmon-bvfk-jumbo.jpg"
+    },
+    {
+      "name": "Oats",
+      "calories": 389,
+      "protein": 16.9,
+      "fat": 6.9,
+      "fiber": 10.6,
+      "carbohydrates": 66.3,
+      "imageUrl":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/09/23/rolled-oats-linen-wood-surface-white-bowl.jpg.rend.hgtvcom.1280.960.85.suffix/1632429307666.webp"
+    },
+    {
+      "name": "Egg",
+      "calories": 155,
+      "protein": 13,
+      "fat": 11,
+      "fiber": 0,
+      "carbohydrates": 1.1,
+      "imageUrl":"https://bittmanproject.com/wp-content/uploads/GettyImages-1309107688-hbeggs-scaled.jpg"
+    },
+    {
+      "name": "Spinach",
+      "calories": 23,
+      "protein": 2.9,
+      "fat": 0.4,
+      "fiber": 2.2,
+      "carbohydrates": 3.6,
+      "imageUrl":"https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/05/spinach-1296x728-header.jpg?w=1155&h=1528"
+    },
+    {
+      "name": "Sweet Potato",
+      "calories": 86,
+      "protein": 1.6,
+      "fat": 0.1,
+      "fiber": 3,
+      "carbohydrates": 20,
+      "imageUrl":"https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FSeries%2F2023-09-how-to-bake-a-sweet-potato%2FHow-To-Cook-Sweet-Potato_220"
+    }
+  ]
+● What kinds of issues might you run into with your API? This is especially important
+if you are creating your own API, web scraping produces notoriously messy data.
+- My data was not being sent to mongoDB it was deploying correctly and the data was not being
+sent correctly. I had to run a few tests before actually getting it to work. 
+
+● Is there any sensitive information you need to secure?
+- I would say yes, the app secures the password of the user and their personal information. 
+
+Like, email, age, password and once they log in their information is stored in a secured
+database. 
+● What functionality will your app include?
+- It includes a login, registration, logout, profile, and track component that would 
+help users navigate to different options in the app.
+
+● What will the user flow look like?
+- First, they need to sign up with email, password, and age. After they are logged in, they
+would be able to login with their email and password. The age is necessary to know the age of the 
+user and if they are younger than 12, then it won't let them to sign in.
+
+● What features make your site more than a CRUD app? What are your stretch
+goals?
+- My stretch goal in this application is for the users necessities to be met. I want the
+users to be able to use this application throughout their day and make it easy for them
+ to navigate and store their information. Also, avoiding interrumptions as much as possble,
+like crashing or slowing down. This application should be easy and simple to use.
+
